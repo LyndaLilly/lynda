@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+    <style>
+        
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.section1{
+    background-color: rgba(241, 28, 45, 0.897);
+    margin-bottom: 100px;
+}
+
+.div1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.section2{
+    background-color:dimgrey;
+    height: 80vh;
+    padding-top: 30px;
+}
+
+.div2{
+    background-color:rgba(241, 28, 45, 0.897);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    height: 70vh;
+    margin-top: -80px;
+}
+.Get{
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.p1{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in;
+}
+
+.submit{
+    border-radius: 25px;
+    border: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 0, 0.836);
+    font-weight: bold;
+    transition: all 2s ease-in;
+    
+}
+
+.submit:hover{
+    background-color: red;
+    color: white;
+}
+
+.form:focus{
+    box-shadow: 0 0 0 7px pink;
+}
+
+.form:focus::placeholder{
+    opacity: 0;
+}
+
+.form::placeholder{
+    color: blueviolet;
+}
+    </style>
+<body>
+
+
+    <section class="section1">
+        <div class="div1">
+            <h3>Download a free chapter and start winning more customers.</h3>
+        </div>
+    </section>
+
+    <section class="section2">
+        
+        <div class="div2">
+            
+            <h2 class="Get">Get Your Free Chapter</h2>
+            <p class="p1">Download a chapter for a peek into Culture Built My Brand and start winning new customers</p>
+
+            <form autocomplete="on">
+                <input class="form" type="text" placeholder="First name">
+                <input class="form" type="text" placeholder="Last name">
+                <input class="form" type="email" placeholder="Email">
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <script src="inputform.js"></script>
+</body>
+</html>
