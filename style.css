@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.section1{
+    background-color: rgba(241, 28, 45, 0.897);
+    margin-bottom: 100px;
+}
+
+.div1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.section2{
+    background-color:dimgrey;
+    height: 80vh;
+    padding-top: 30px;
+}
+
+.div2{
+    background-color:rgba(241, 28, 45, 0.897);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    height: 70vh;
+    margin-top: -80px;
+}
+.Get{
+    color: white;
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.p1{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    padding: 15px;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in;
+}
+
+.submit{
+    border-radius: 25px;
+    border: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 0, 0.836);
+    font-weight: bold;
+    transition: all 2s ease-in;
+    
+}
+
+.submit:hover{
+    background-color: red;
+    color: white;
+}
+
+.form:focus{
+    box-shadow: 0 0 0 7px pink;
+}
+
+.form:focus::placeholder{
+    opacity: 0;
+}
+
+.form::placeholder{
+    color: blueviolet;
+}
